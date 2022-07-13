@@ -1,10 +1,13 @@
 import './App.css';
-import TestJess from "./components/TestJess";
+import Header from "./components/Header";
+import Project from "./components/Project";
 
 function App() {
   return (
     <div className="App">
-        <TestJess/>
+        <Header/>
+        <Project name="Kachirp" url="peytonschaefer.com"/>
+        <Project/>
     </div>
   );
 }
