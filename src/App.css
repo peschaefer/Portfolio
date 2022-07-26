@@ -1,10 +1,53 @@
+html{
+    background-color: #EAE7DC;
+}
+
 .App {
     width: 100vw;
     height: 100vh;
     background-color: #EAE7DC;
+    color: #8E8D8A;
+}
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
 }
 
 h2{
     margin: 0;
-    padding: .18em
+    padding: .18em;
+    color: #E85A4F;
 }
+
+ul{
+    list-style: none;
+    display: inline;
+}
+
+li{
+    float: left;
+    padding: 16px;
+}
+
+a{
+    color: #E98074;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited { text-decoration: none; }
+
+
+a:hover {
+    text-decoration: none;
+    color: #E85A4F;
+}
+
+.project-name{
+    color: #545252;
+}
+
+a:active { text-decoration: none; }
