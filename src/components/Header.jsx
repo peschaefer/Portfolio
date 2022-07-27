@@ -8,8 +8,8 @@ const Header = () => {
     return (
         <>
         <header className={"site-header"}>
-            <h2>Peyton Schaefer</h2>
-            <ul>
+            <h2 className={"my-name"}>Peyton Schaefer</h2>
+            <ul className={"link-list"}>
                 <li>
                     <NavLink to="/" style={currentPage === "/" ? {color: "#E85A4F", textDecoration: "underline"} : {color: "#E98074"} }>Home</NavLink>
                 </li>
@@ -25,10 +25,13 @@ const Header = () => {
             </ul>
         </header>
             <hr style={{
-                background: '#E85A4F',
-                color: '#E85A4F',
-                //borderColor: 'lime',
-                height: '3px',
+                background: "rgb(232, 90, 79)",
+                color: "rgb(232, 90, 79)",
+                height: "3px",
+                margin: "0px",
+                width: "95%",
+                marginLeft: "auto",
+                marginRight: "auto",
             }}/>
             </>
     );

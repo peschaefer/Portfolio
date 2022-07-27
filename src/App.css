@@ -14,10 +14,25 @@ html{
     justify-content: space-between;
 }
 
+.my-name{
+    padding: 16px 16px 16px 5%;
+    font-size: 25pt;
+}
+
+.link-list{
+    padding-right: 5%;
+}
+
 h2{
     margin: 0;
     padding: .18em;
     color: #E85A4F;
+}
+
+.subheader{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 ul{
