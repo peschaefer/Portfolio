@@ -24,15 +24,7 @@ const Header = () => {
                 </li>
             </ul>
         </header>
-            <hr style={{
-                background: "rgb(232, 90, 79)",
-                color: "rgb(232, 90, 79)",
-                height: "3px",
-                margin: "0px",
-                width: "95%",
-                marginLeft: "auto",
-                marginRight: "auto",
-            }}/>
+            <hr className={"header-line"}/>
             </>
     );
 };

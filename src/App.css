@@ -9,6 +9,17 @@ html{
     color: #8E8D8A;
 }
 
+.project-box{
+    width: 75%;
+    margin: auto;
+}
+
+.single-project-container{
+    display: flex;
+    padding-top: 15px;
+    /*padding-bottom: 10px;*/
+}
+
 .site-header{
     display: flex;
     justify-content: space-between;
@@ -66,3 +77,19 @@ a:hover {
 }
 
 a:active { text-decoration: none; }
+
+.header-line{
+    background: rgb(232, 90, 79);
+    color: rgb(232, 90, 79);
+    height: 3px;
+    width: 95%;
+    margin: 0 auto 0 auto;
+}
+
+.subline{
+    background: rgb(232, 90, 79);
+    color: rgb(232, 90, 79);
+    height: 3px;
+    width: 75%;
+    margin: 0 auto 0 auto;
+}
