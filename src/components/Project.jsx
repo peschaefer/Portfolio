@@ -1,5 +1,6 @@
 import React from "react";
 import defaultImage from "../images/no-image.png"
+import githubLogo from "../images/github.png"
 
 const Project = (props) => {
 
@@ -11,7 +12,9 @@ const Project = (props) => {
             <div>
                 <h3 className={"project-name"}>{props.name}</h3>
                 <p>{props.description}</p>
-                <a href={props.url}>GitHub</a>
+                <a href={props.url}>
+                    <img src={githubLogo} alt={"clickable github logo"} width={"32px"}/>
+                </a>
             </div>
         </div>
     );
