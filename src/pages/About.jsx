@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const About = () => {
     return (
@@ -8,6 +9,7 @@ const About = () => {
             <Header/>
             <h2 className={"subheader"}>About</h2>
             <hr className={"subline"}/>
+            <Footer/>
         </div>
     );
 };

@@ -94,6 +94,28 @@ a:active { text-decoration: none; }
     margin: 0 auto 0 auto;
 }
 
+footer{
+    padding-top: 30px;
+}
+
+footer > div{
+    width: 50%;
+    margin: auto;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socials > p {
+    padding: 12px;
+}
+
+.socials > a {
+    margin: auto;
+}
+
 .resume-pdf-viewer{
     margin-left: 12.5%;
 }
