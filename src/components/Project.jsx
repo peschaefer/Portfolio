@@ -13,7 +13,7 @@ const Project = (props) => {
                 <h3 className={"project-name"}>{props.name}</h3>
                 <p>{props.description}</p>
                 <a href={props.url}>
-                    <img src={githubLogo} alt={"clickable github logo"} width={"32px"}/>
+                    <img className={"project-link"} src={githubLogo} alt={"clickable github logo"} width={"32px"}/>
                 </a>
             </div>
         </div>
