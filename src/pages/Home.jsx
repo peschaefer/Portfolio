@@ -7,7 +7,7 @@ const Home = () => {
         <div className="App">
             <title>PeytonSchaefer</title>
             <Header/>
-            <p>I consent to criticism and allow Drew to present this portfolio site.</p>
+            <p style={{textAlign: "center"}}>I consent to criticism and allow Drew to present this portfolio site.</p>
             <Footer/>
         </div>
     );
